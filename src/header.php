@@ -38,7 +38,7 @@ switch($_SESSION['lang']){
                         <?php if(isset($_SESSION['usr_id'])){
 
                             echo '
- <a class="item" href="/chat">'.$lang['headrbutton1'].'</a>&nbsp;
+ <a class="item" href="/i">'.$lang['headrbutton1'].'</a>&nbsp;
  <a class="ui inverted button" href="/logout">'.$lang['headrbutton2'].'</a>';
                         }
                         else{

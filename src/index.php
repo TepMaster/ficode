@@ -126,7 +126,7 @@ switch($_SESSION['lang']){
             <p><?php echo $lang['free1'];?></p>
             <p><?php echo $lang['free2'];?></p>
             <?php if(isset($_SESSION['usr_id'])){
-                echo ' <a class="ui huge primary button" href="/chat">To Chat</a>';
+                echo ' <a class="ui huge primary button" href="/i">Forum</a>';
             }
             else echo ' <a class="ui huge primary button" href="/register">Get Started</a>';
             ?>
